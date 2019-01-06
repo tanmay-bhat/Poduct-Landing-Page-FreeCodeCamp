@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<html>
+
+<head>
+  <title>freeCodeCamp Product Landing Page</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="page-container"> <!-- Overall Div Page Container -->
+    <header id="header"> <!-- Page Header -->
+      <img id="header-img" src="https://img.icons8.com/windows/26/000000/wood.png" alt="tree Logo"/>
+      <h1>Origin Woods</h1> <!-- Page Title -->
+      <nav id="nav-bar"> <!-- Navigation Bar -->
+        <button><a class="nav-link" href="#features">Features</a></button>
+        <button><a class="nav-link" href="#how-it-works">How It Works</a></button>
+        <button><a class="nav-link" href="#pricing">Pricing</a></button>
+      </nav>
+    </header>
+    <br>
+  
+    <div class="form-container"> <!-- Form Container -->
+      <h2>Woods for every use, <u>every single use</u></h2> <!-- Form Title -->
+      <p>Subscribe to our mailing list for news alerts and offers!</p>
+      <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="Please enter your email:" required/>
+        <input id="submit" type="submit" value="Enter"/>
+      </form>
+    </div>
+    <br>
+ 
+    <div class="contents"> <!-- Content Container -->
+      <section id="features"> <!-- Features Section -->
+        <div class="list"> <!-- Quality Feature -->
+          <div class="icon">
+            <i class="material-icons">assignment_turned_in</i>
+          </div>
+          <div class="discription">
+            <h2>Quality</h2>
+            <p>Our number one priority is to provide our customers with the number one woods, Our woods come in handy for your every use with perfect edge cutting and maximum accuracy!</p>
+          </div>
+        </div>
+        <div class="list"> <!-- Technology Feature -->
+          <div class="icon">
+            <i class="material-icons">build</i>
+          </div>
+          <div class="discription">
+            <h2>Technology</h2>
+            <p>We use high power lasers to cut woods and precise blades to tune them for more stability! </p>
+          </div>
+        </div>
+        <div class="list"> <!-- Customer Service Feature -->
+          <div class="icon">
+            <i class="material-icons">settings_phone</i>
+          </div>
+          <div class="discription">
+            <h2>Customer Service</h2>
+            <p id="how-it-works">Happy customers keep the engine going and we offer 24/7 customer service to ensure our patrons are 100% satisfied with the fitment and stability of their woods!</p>
+          </div>
+        </div>
+      </section>
+      <br>
+      
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/AK0IUgXQAaM" frameborder="0" allowfullscreen></iframe>
+
+
+
+      
+      <section id="pricing"> <!-- Pricing Section -->
+        <div id="copper">
+          <div class="option">
+            Willow Oak
+          </div>
+          <img src="https://www.wood-database.com/wp-content/uploads/willow-oak.jpg"  height="200px" />
+          <h3>$200 Per Piece</h3>
+          <ul>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet</li>
+          </ul>
+          <button class="btn">Select</button>
+        </div>
+        <div id="platinum">
+          <div class="option">
+           Pin Oak
+          </div>
+          <img src="https://www.wood-database.com/wp-content/uploads/pin-oak.jpg" height="200px" />
+          <h3>$500 Per Piece</h3>
+          <ul>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet</li>
+          </ul>
+          <button class="btn">Select</button>
+        </div>
+        <div id="iridium">
+          <div class="option">
+            Black Oak
+          </div>
+          <img src="https://www.wood-database.com/wp-content/uploads/black-oak.jpg" height="200px" />
+          <h3>$700 Per Piece</h3>
+          <ul>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet</li>
+          </ul>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <br>
+      
+    </div>
+    <br>
+
+  </div>
+</body>
+
+<footer> <!-- Footer Section -->
+  <span>&copy; 2019 Code by: Tanmay</span>
+</footer>
+
+</html>
